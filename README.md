@@ -38,7 +38,9 @@ Ticket ids are checked only for the prefixes in `CLAUDE_TICKET_PREFIXES` (`"ABC"
 
 ### Requirements
 
-`perl` with its core `JSON::PP` module, both present on macOS and most Linux distributions.
+`perl` with its core `JSON::PP` module: present on macOS and most Linux distributions. On Windows,
+Claude Code runs hooks in Git Bash, so install [Git for Windows](https://git-scm.com/downloads/win), which ships `perl`;
+without it the hooks fall back to PowerShell and don't run.
 
 ### Test
 
