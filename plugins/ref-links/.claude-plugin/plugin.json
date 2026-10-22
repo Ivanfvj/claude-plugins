@@ -1,7 +1,6 @@
 {
   "name": "ref-links",
   "displayName": "Ref links",
-  "version": "1.0.0",
   "description": "Every PR, issue or ticket Claude cites is a markdown link carrying its number and title",
   "author": {
     "name": "Iván Velasteguí",
