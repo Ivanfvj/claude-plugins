@@ -1,0 +1,26 @@
+{
+  "description": "Teach the reference-link rule at session start; block a reply that breaks it",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "perl \"${CLAUDE_PLUGIN_ROOT}/scripts/session-start.pl\""
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "perl \"${CLAUDE_PLUGIN_ROOT}/scripts/check-ref-links.pl\"",
+            "statusMessage": "Checking PR/ticket links"
+          }
+        ]
+      }
+    ]
+  }
+}
