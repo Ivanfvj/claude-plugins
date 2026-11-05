@@ -1,0 +1,11 @@
+{
+  "name": "explain-tickets",
+  "displayName": "Explain tickets",
+  "description": "Explains a chain of tickets in execution order: what each one asked for and what came out of it",
+  "author": {
+    "name": "Iván Velasteguí",
+    "url": "https://github.com/Ivanfvj"
+  },
+  "repository": "https://github.com/Ivanfvj/claude-plugins",
+  "license": "MIT"
+}

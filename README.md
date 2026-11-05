@@ -47,3 +47,22 @@ without it the hooks fall back to PowerShell and don't run.
 ```bash
 bash plugins/ref-links/tests/check-ref-links.test.sh
 ```
+
+## explain-tickets
+
+A skill that explains a chain of tickets (a parent and its sub-tickets, a project or an epic) in
+execution order. It opens with a short glossary of the recurring jargon, then gives one block per
+ticket ("What it asked for", "What came out", and when they apply "What changed because of it",
+"What was added later", "Where it stands"), and closes with the whole chain in one line.
+
+It reads the real tickets first, comments included, through whatever tracker tools the session
+has. It answers in English by default, and in Spanish (or the user's language) when asked in it.
+
+### Install
+
+```bash
+claude plugin marketplace add Ivanfvj/claude-plugins
+claude plugin install explain-tickets@ivanfvj
+```
+
+Then ask "explain the tickets of ABC-10" or "explícame los tickets de ABC-10".
