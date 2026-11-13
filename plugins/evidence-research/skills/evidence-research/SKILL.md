@@ -1,15 +1,15 @@
 ---
-name: ivan-research
-description: Iván's research method — how to investigate anything for him so the result survives his "based on which source?" check. Use whenever he asks to research, investigate, deep-research, compare or rank options, evaluate a vendor/product/seller, find how other companies solve something, verify a claim or number, or before recommending a decision. Runs on top of the deep-research skill; it does not replace it.
+name: evidence-research
+description: Evidence-first research method — investigate anything so every claim survives a "based on which source?" check. Use whenever the user asks to research, investigate, deep-research, compare or rank options, evaluate a vendor/product/seller, find how other companies solve something, verify a claim or number, or before recommending a decision. Runs on top of the deep-research skill; it does not replace it.
 ---
 
-Iván decides from **evidence**, never opinion. He will ask "based on which arguments?", "where does that number come from?", "whose idea was this?" — every result must already answer those. Guessing, anchoring on what is already built, and shallow one-search answers are what he calls lazy; he expects relentless legwork.
+Decisions come from **evidence**, never opinion. The user will ask "based on which arguments?", "where does that number come from?", "whose idea was this?" — every result must already answer those. Guessing, anchoring on what is already built, and shallow one-search answers fail that check; the legwork is relentless.
 
 ## 1. Frame the goal before searching
 
 - Write one line: **what decision this research serves**. Then lift it one category up ("what are we actually trying to achieve?") so the research is not a narrow re-check of the two or three options already on the table.
 - Strip **bias**: the current product's limits, the current client or location (one customer's city is not the universe), recent chat momentum, our own prior picks. Research the world first; map it onto our situation after.
-- Deep or paid research (deep-research runs, many agents, paid API calls): first show him the brief you would run — question, scope, criteria, sources — and get his go. Quick lookups: just do them.
+- Deep or paid research (deep-research runs, many agents, paid API calls): first show the user the brief you would run — question, scope, criteria, sources — and get their go. Quick lookups: just do them.
 
 ## 2. Start from what is already known
 
@@ -26,7 +26,7 @@ Spin one agent per independent lane (`deep-research` skill for broad questions).
 | Lane | What to pull |
 | --- | --- |
 | **Primary** | Official docs, specs, changelogs, the vendor's own GitHub, laws and government sources, search-engine docs (Google Search Central). |
-| **Data** | Real numbers: DataForSEO (volume, rankings, DR, SERPs), GitHub stars/activity, pricing pages, total cost over the period he cares about. |
+| **Data** | Real numbers: DataForSEO (volume, rankings, DR, SERPs), GitHub stars/activity, pricing pages, total cost over the period that matters. |
 | **Peers** | How top-notch products do it: name real companies, link them, open their actual pages/HTML/UI, screenshot. Inspiration, not a mandate. |
 | **People** | Reddit, X, YouTube, communities, forums (Monid connectors for social). What practitioners actually use and complain about. |
 | **Trust** (vendors, products, sellers) | Founded when, from where, named customers, independent reviews, verifiable testimonials, certifications checked at the source, refund/cancel/auto-renew terms. |
@@ -34,7 +34,7 @@ Spin one agent per independent lane (`deep-research` skill for broad questions).
 
 If a relevant skill exists for the domain (copywriting, SEO, design), load it and use it as a source too.
 
-Paid calls beyond what he asked for (bulk lead pulls, finder/verifier runs): propose with the cost and wait.
+Paid calls beyond what was asked for (bulk lead pulls, finder/verifier runs): propose with the cost and wait.
 
 ## 5. Trace every claim
 
@@ -48,17 +48,17 @@ Before delivering anything substantial, hand the findings to a fresh agent with 
 
 ## 7. Deliver
 
-- **Lead with the answer** in plain words. Simple language; explain any term he has not met.
+- **Lead with the answer** in plain words. Simple language; explain any term the user has not met.
 - **Comparison table**: one row per option, criteria as columns, real numbers, links, a trust column when relevant.
-- **His decisions**: options plus your recommended pick, with the arguments. **Team research tickets**: contrast on criteria, no pick unless he asks.
-- **Visuals** for UI, architecture or flows: before/after, real examples from peers. Big results go in an HTML report (light theme, diagram-design skill) opened for him.
+- **Decisions the user makes**: options plus your recommended pick, with the arguments. **Research for someone else to decide on** (a teammate's ticket): contrast on criteria, no pick unless asked.
+- **Visuals** for UI, architecture or flows: before/after, real examples from peers. Big results go in an HTML report (light theme, diagram-design skill) opened for the user.
 - **Open questions** in chat, grilling format (❓ question / ➡️ recommendation), never the question dialog.
 - End with **ordered next steps**.
 
 ## 8. Persist, then stop
 
 - Research worth keeping goes where the next session will find it: a repo doc via PR (e.g. `docs/research/<topic>-<yyyy-mm>/`) or a ticket carrying the sources, so nobody re-runs it.
-- "Research" means research. Apply changes, flip settings or buy anything only after his explicit go on that specific action.
+- "Research" means research. Apply changes, flip settings or buy anything only after the user's explicit go on that specific action.
 
 ## Done when
 

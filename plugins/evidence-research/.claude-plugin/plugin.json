@@ -1,0 +1,11 @@
+{
+  "name": "evidence-research",
+  "displayName": "Evidence research",
+  "description": "Evidence-first research method: frame the decision, start from prior work, close every unknown with a source, verify, and deliver a sourced recommendation",
+  "author": {
+    "name": "Iván Velasteguí",
+    "url": "https://github.com/Ivanfvj"
+  },
+  "repository": "https://github.com/Ivanfvj/claude-plugins",
+  "license": "MIT"
+}

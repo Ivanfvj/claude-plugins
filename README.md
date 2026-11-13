@@ -67,9 +67,9 @@ claude plugin install explain-tickets@ivanfvj
 
 Then ask "explain the tickets of ABC-10" or "explícame los tickets de ABC-10".
 
-## ivan-research
+## evidence-research
 
-A skill that encodes how Iván researches, distilled from his past sessions. Before searching it
+An evidence-first research method. Before searching it
 names the decision the research serves and strips bias from current work. It starts from prior
 research, closes every unknown with a source or labels it an assumption, gathers across lanes in
 parallel (primary docs, real data, peer products, community talk, vendor trust, first-hand
@@ -80,7 +80,7 @@ break the findings, and delivers a comparison table with a sourced recommendatio
 
 ```bash
 claude plugin marketplace add Ivanfvj/claude-plugins
-claude plugin install ivan-research@ivanfvj
+claude plugin install evidence-research@ivanfvj
 ```
 
 Then ask Claude to research, compare or verify anything; it loads on its own.

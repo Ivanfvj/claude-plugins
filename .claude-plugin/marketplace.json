@@ -17,9 +17,9 @@
       "description": "Explains a chain of tickets in execution order: what each one asked for and what came out of it"
     },
     {
-      "name": "ivan-research",
-      "source": "./plugins/ivan-research",
-      "description": "Iván's research method: frame the decision, start from prior work, close every unknown with a source, verify, and deliver a sourced recommendation"
+      "name": "evidence-research",
+      "source": "./plugins/evidence-research",
+      "description": "Evidence-first research method: frame the decision, start from prior work, close every unknown with a source, verify, and deliver a sourced recommendation"
     }
   ]
 }
