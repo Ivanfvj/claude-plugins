@@ -84,3 +84,20 @@ claude plugin install evidence-research@ivanfvj
 ```
 
 Then ask Claude to research, compare or verify anything; it loads on its own.
+
+## value-proposition
+
+A research-first method for writing a value proposition, built from Copyhackers, April Dunford,
+Strategyzer, Bain's Elements of Value and NN/g. It picks one customer, collects their exact words,
+maps their real alternatives, keeps only provable attributes, turns them into one to three values,
+drafts 20+ headlines from proven formulas, scores the top three against a 13-point checklist, and
+hands back a 5-second test plan. It also reviews an existing value proposition against the checklist.
+
+### Install
+
+```bash
+claude plugin marketplace add Ivanfvj/claude-plugins
+claude plugin install value-proposition@ivanfvj
+```
+
+Then ask "write a value proposition for X" or "review our homepage headline".

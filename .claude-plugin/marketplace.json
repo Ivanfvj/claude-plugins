@@ -20,6 +20,11 @@
       "name": "evidence-research",
       "source": "./plugins/evidence-research",
       "description": "Evidence-first research method: frame the decision, start from prior work, close every unknown with a source, verify, and deliver a sourced recommendation"
+    },
+    {
+      "name": "value-proposition",
+      "source": "./plugins/value-proposition",
+      "description": "Research-first value proposition method: one customer, their real alternatives, provable value, many drafts, a 13-point checklist and a 5-second test"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "name": "value-proposition",
+  "displayName": "Value proposition",
+  "description": "Research-first value proposition method: one customer, their real alternatives, provable value, many drafts, a 13-point checklist and a 5-second test",
+  "author": {
+    "name": "Iván Velasteguí",
+    "url": "https://github.com/Ivanfvj"
+  },
+  "repository": "https://github.com/Ivanfvj/claude-plugins",
+  "license": "MIT"
+}
