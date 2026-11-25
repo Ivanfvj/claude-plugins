@@ -101,3 +101,20 @@ claude plugin install value-proposition@ivanfvj
 ```
 
 Then ask "write a value proposition for X" or "review our homepage headline".
+
+## subject-lines
+
+A data-backed method for cold email subject lines, built from large send studies (Belkins, Gong,
+Hunter, Saleshandy, Backlinko) and a peer-reviewed field experiment. It reads the email first,
+drafts from one formula (a real recipient attribute plus the body's outcome, 2–6 words), checks
+every variant against nine sourced rules, and sizes any A/B test on reply rate, saying when the
+list is too small to test at all. It also reviews existing subject lines against the same rules.
+
+### Install
+
+```bash
+claude plugin marketplace add Ivanfvj/claude-plugins
+claude plugin install subject-lines@ivanfvj
+```
+
+Then ask "write subject lines for this email" or "review these subject lines".

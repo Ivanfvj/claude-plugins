@@ -25,6 +25,11 @@
       "name": "value-proposition",
       "source": "./plugins/value-proposition",
       "description": "Research-first value proposition method: one customer, their real alternatives, provable value, many drafts, a 13-point checklist and a 5-second test"
+    },
+    {
+      "name": "subject-lines",
+      "source": "./plugins/subject-lines",
+      "description": "Data-backed method for cold email subject lines: short, one real personal attribute, specific to the reader's world, checked against sourced rules and judged on reply rate"
     }
   ]
 }
