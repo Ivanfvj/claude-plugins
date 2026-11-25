@@ -1,0 +1,11 @@
+{
+  "name": "subject-lines",
+  "displayName": "Subject lines",
+  "description": "Data-backed method for cold email subject lines: short, one real personal attribute, specific to the reader's world, checked against sourced rules and judged on reply rate",
+  "author": {
+    "name": "Iván Velasteguí",
+    "url": "https://github.com/Ivanfvj"
+  },
+  "repository": "https://github.com/Ivanfvj/claude-plugins",
+  "license": "MIT"
+}
